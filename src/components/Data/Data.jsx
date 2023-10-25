@@ -132,7 +132,7 @@ export const Navlink = [
 export const projects = [
   {
     id: 1,
-    src: "portfolio.jpg",
+    src: "js_5968292.png",
     title: "portfolio",
     description: "lorem",
     hcode: "https://github.com/Meriemchm/ch-react-portfolio-ilyes",
@@ -140,7 +140,23 @@ export const projects = [
   },
   {
     id: 2,
-    src: "podcast.jpg",
+    src: "js_5968292.png",
+    title: "podcast",
+    description: "lorem",
+    hcode: "hcode",
+    hdemo: "",
+  },
+  {
+    id: 3,
+    src: "js_5968292.png",
+    title: "podcast",
+    description: "lorem",
+    hcode: "hcode",
+    hdemo: "",
+  },
+  {
+    id: 4,
+    src: "js_5968292.png",
     title: "podcast",
     description: "lorem",
     hcode: "hcode",
@@ -182,27 +198,27 @@ export const menuItemSolution = [
     id: 1,
     path: "/TPE/PME",
     title: "TPE/PME",
-    icon: <MdPersonalVideo size={25} className="text-white" />,
+    icon: <MdPersonalVideo size={40} className="text-white" />,
   },
   {
     id: 2,
     path: "/CréateursEntreprise",
     title: "Créateurs d’entreprise",
-    icon: <BiPodcast size={25} className="text-white" />,
+    icon: <BiPodcast size={40} className="text-white" />,
   },
 
   {
     id: 3,
     path: "/RepreneursEntreprisese",
     title: "Repreneurs d’entreprise",
-    icon: <BiPodcast size={25} className="text-white" />,
+    icon: <BiPodcast size={40} className="text-white" />,
   },
 
   {
     id: 4,
     path: "/GrandsComptes",
     title: "Grands comptes",
-    icon: <BiPodcast size={25} className="text-white" />,
+    icon: <BiPodcast size={40} className="text-white" />,
   },
 ];
 
