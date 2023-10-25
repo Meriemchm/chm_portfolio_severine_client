@@ -77,7 +77,7 @@ const NavBar = () => {
           })}
         </ul>
       )}
-      <button className="bg-primary text-white px-5 py-2 rounded-md border-4  text-bold duration-200 hover:scale-105 lg:hidden hidden 2xl:block">
+      <button className="bg-primary text-white px-5 py-2 rounded-lg  text-bold duration-200 hover:scale-105 lg:hidden hidden 2xl:block">
         {" "}
         <Links to="/Rendez-vous" smooth duration={500}>
           Rendez-vous
