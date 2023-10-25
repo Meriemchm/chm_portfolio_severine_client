@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 const About = () => {
   return (
     <div name="apropos" className="flex w-full pb-10 ">
-      <div className="mx-auto flex flex-col-reverse justify-center items-center px-8 my-16 gap-5 md:gap-0 md:flex-row md:my-0 lg:w-full ">
-        <div className="flex flex-col md:justify-center  lg:w-1/2">
+      <div className="mx-auto flex flex-col-reverse justify-center items-center px-8 my-16 gap-5 xl:gap-0 xl:flex-row xl:my-0 xl:w-full ">
+        <div className="flex flex-col xl:justify-center  xl:w-1/2">
           <h2 className="text-2xl md:text-5xl font-bol">
             Je suis <span className="text-second">Séverine</span>{" "}
           </h2>

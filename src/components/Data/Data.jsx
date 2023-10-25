@@ -9,29 +9,64 @@ import { MdPersonalVideo } from "react-icons/md";
 export const techs = [
   {
     id: 1,
-    child: <FaReact color="white" size={40} />,
-    title: "React",
+    child: "html_1051277.png",
+    title: "HTML",
     style: " bg-gradient-to-r from-yellow-500 to-four",
     type: "frontend",
   },
   {
     id: 2,
-    child: <SiTailwindcss className="text-four" size={40} />,
-    title: "tailwindcss",
-    style: "",
+    child: "css-3_732190.png",
+    title: "CSS",
+    style: " bg-gradient-to-r from-yellow-500 to-four",
     type: "frontend",
   },
   {
     id: 3,
-    child: <FaFigma className="text-four" size={40} />,
-    title: "Figma",
-    style: "",
-    type: "design",
+    child: "js_5968292.png",
+    title: "JavaScript",
+    style: " bg-gradient-to-r from-yellow-500 to-four",
+    type: "frontend",
   },
   {
     id: 4,
-    child: <BiLogoGit className="text-four" size={40} />,
-    title: "Git & Github",
+    child: "photoshop.png",
+    title: "PhotoShop",
+    style: " bg-gradient-to-r from-yellow-500 to-four",
+    type: "design",
+  },
+  {
+    id: 5,
+    child: "logo192.png",
+    title: "React",
+    style: " bg-gradient-to-r from-yellow-500 to-four",
+    type: "frontend",
+  },
+  {
+    id: 6,
+    child: "nodejs.png",
+    title: "Node.js",
+    style: "",
+    type: "frontend",
+  },
+  {
+    id: 7,
+    child: "sass.png",
+    title: "SASS",
+    style: "",
+    type: "frontend",
+  },
+  {
+    id: 8,
+    child: "git.png",
+    title: "Git",
+    style: "",
+    type: "others",
+  },
+  {
+    id: 9,
+    child: "github.png",
+    title: "Github",
     style: "",
     type: "others",
   },
@@ -65,17 +100,6 @@ export const links = [
     ),
     href: "mailto:severinedalsanto@gmail.com",
   },
-  // {
-  //   id: 4,
-  //   mobile: (
-  //     <>
-  //       <BsFillPersonLinesFill size={30} />
-  //     </>
-  //   ),
-  //   style: "rounded-br-md",
-  //   href: "/resume.pdf",
-  //   download: true,
-  // },
 ];
 
 export const Navlink = [
@@ -124,42 +148,128 @@ export const projects = [
   },
 ];
 
-export const menuItem = [
+export const services = [
   {
     id: 1,
-    path: "/portfolio",
-    title: "portfolio",
+    src: "programmation-web.png",
+    title: "La conception graphique",
+    description:
+      "création de logo et d’identité visuelle et supports imprimés ( cartes de visites, plaquettes, affiches)",
+  },
+  {
+    id: 2,
+    src: "programmation-web.png",
+    title: "La communication digitale",
+    description: "création de sites internet",
+  },
+  {
+    id: 3,
+    src: "programmation-web.png",
+    title: "Le conseil en développement d’audience",
+    description:
+      "des campagnes de communication coordonnées avec la gestion des réseaux sociaux",
+  },
+  {
+    id: 4,
+    src: "programmation-web.png",
+    title: "La stratégie de communication",
+    description: "conseil en communication et marketing",
+  },
+];
+
+export const menuItemSolution = [
+  {
+    id: 1,
+    path: "/TPE/PME",
+    title: "TPE/PME",
     icon: <MdPersonalVideo size={25} className="text-white" />,
   },
   {
     id: 2,
-    path: "/podcast",
-    title: "podcast",
+    path: "/CréateursEntreprise",
+    title: "Créateurs d’entreprise",
     icon: <BiPodcast size={25} className="text-white" />,
+  },
+
+  {
+    id: 3,
+    path: "/RepreneursEntreprisese",
+    title: "Repreneurs d’entreprise",
+    icon: <BiPodcast size={25} className="text-white" />,
+  },
+
+  {
+    id: 4,
+    path: "/GrandsComptes",
+    title: "Grands comptes",
+    icon: <BiPodcast size={25} className="text-white" />,
+  },
+];
+
+export const ServiceSolution = [
+  {
+    id: 1,
+    src: "portfolio.jpg",
+    title: "Conseil en communication",
+    description:
+      "Avant de créer tout support de communication, j’essaye de penser à son impact. En communication, celui qui s’adapte et anticipe le mieux, obtient la meilleure des réputations. ",
+    service: "TPE/PME",
+  },
+  {
+    id: 2,
+    src: "podcast.jpg",
+    title: "Conseil en communication digitale ",
+    description:
+      "Je pourrais créer pour vous des sites internet responsives, et des applications mobiles... Je saurai vous conseiller et réaliser des outils adaptés à vos projets...",
+    service: "TPE/PME",
+  },
+  {
+    id: 3,
+    src: "podcast.jpg",
+    title: "Conseil en communication",
+    description:
+      "Avant de créer tout support de communication, j’essaye de penser à sonimpact. En communication, celui qui s’adapte et anticipe le mieux, obtient la meilleure des réputations. Essayant toujours de trouver des solutions sur mesure et adaptées à vos besoins, budgets, et enjeux.",
+    service: "Créateurs d’entreprise",
+  },
+  {
+    id: 4,
+    src: "podcast.jpg",
+    title: "Conseil en communication digitale",
+    description:
+      " pour vous des sites internet responsives, et des applications mobiles... Je saurai vous conseiller et réaliser des outils adaptés à vos projets...",
+    service: "Créateurs d’entreprise",
   },
 ];
 
 export const formItem = [
   {
     id: 1,
-    name: "name",
+    name: "nom",
     type: "text",
-    placeholder: "Enter your name",
+    placeholder: "Nom",
     pattern: "[A-Za-z]+",
     categorie: "input",
   },
   {
     id: 2,
-    name: "email",
+    name: "prenom",
     type: "text",
-    placeholder: "Enter your email",
-    pattern: "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+    placeholder: "Prenom",
+    pattern: "[A-Za-z]+",
     categorie: "input",
   },
   {
     id: 3,
+    name: "email",
+    type: "text",
+    placeholder: "Email",
+    pattern: "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+    categorie: "input",
+  },
+  {
+    id: 4,
     name: "message",
-    placeholder: "Enter your message",
+    placeholder: "Message",
     categorie: "textarea",
   },
 ];
