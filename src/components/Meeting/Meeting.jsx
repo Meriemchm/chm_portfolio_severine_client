@@ -1,12 +1,10 @@
 import React from "react";
-import AuthButton from "./AuthButton";
-import RedirectPage from "./RedirectPage";
 import MeetingContainer from "./MeetingContainer";
 
 const Meeting = () => {
   return (
     <div
-      name="projects"
+    
       className="md:px-20 mx-auto p-4 flex flex-col  h-full w-full"
     >
       <div className="flex items-center mb-10">

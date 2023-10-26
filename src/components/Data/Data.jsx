@@ -121,7 +121,7 @@ export const Navlink = [
   },
   {
     id: 5,
-    link: "projets",
+    link: "projects",
   },
   {
     id: 6,
@@ -229,7 +229,6 @@ export const ServiceSolution = [
     title: "Conseil en communication",
     description:
       "Avant de créer tout support de communication, j’essaye de penser à son impact. En communication, celui qui s’adapte et anticipe le mieux, obtient la meilleure des réputations. ",
-    service: "TPE/PME",
   },
   {
     id: 2,
@@ -237,23 +236,6 @@ export const ServiceSolution = [
     title: "Conseil en communication digitale ",
     description:
       "Je pourrais créer pour vous des sites internet responsives, et des applications mobiles... Je saurai vous conseiller et réaliser des outils adaptés à vos projets...",
-    service: "TPE/PME",
-  },
-  {
-    id: 3,
-    src: "podcast.jpg",
-    title: "Conseil en communication",
-    description:
-      "Avant de créer tout support de communication, j’essaye de penser à sonimpact. En communication, celui qui s’adapte et anticipe le mieux, obtient la meilleure des réputations. Essayant toujours de trouver des solutions sur mesure et adaptées à vos besoins, budgets, et enjeux.",
-    service: "Créateurs d’entreprise",
-  },
-  {
-    id: 4,
-    src: "podcast.jpg",
-    title: "Conseil en communication digitale",
-    description:
-      " pour vous des sites internet responsives, et des applications mobiles... Je saurai vous conseiller et réaliser des outils adaptés à vos projets...",
-    service: "Créateurs d’entreprise",
   },
 ];
 

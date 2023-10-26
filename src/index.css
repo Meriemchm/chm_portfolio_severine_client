@@ -11,37 +11,7 @@
     }
 }
 
-@keyframes colorChange {
-    1% { background-color:  rgb(145, 88, 231); }
-    25% { background-color: rgb(149, 69, 230); }
-    50% { background-color: rgb(203, 131, 195); }
-    75% { background-color: rgb(149, 69, 230); }
-    100% { background-color: rgb(145, 88, 231); }
-  }
-  
-  .color-change {
-    background-color: rgb(145, 88, 231);
-    animation: colorChange 4s infinite ease-in-out;
-  }
-
-  /* width */
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #888888;
+.react-calendar__tile--active {
+  background: #006edc;
+  color: black !important;
 }

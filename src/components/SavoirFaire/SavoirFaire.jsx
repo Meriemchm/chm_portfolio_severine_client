@@ -3,7 +3,7 @@ import Service from "../Service/Service";
 import { services } from "../Data/Data";
 const SavoirFaire = () => {
   return (
-    <div name="savoir-faire" className=" w-full ">
+    <div data-aos="fade-up" name="savoir-faire" className=" w-full ">
       <div className="md:px-20 mx-auto p-4 flex flex-col  w-full h-full ">
         <div className="flex items-center">
           <p className="text-2xl md:text-4xl text-second font-bold p-2 inline">

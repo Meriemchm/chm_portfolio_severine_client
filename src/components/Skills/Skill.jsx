@@ -4,10 +4,11 @@ const Skill = ({ data }) => {
   return (
     <>
       {/* <h2 className="text-2xl text-gray-500 py-4">{Title}</h2> */}
-      <div className="p-4 ">
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 sm:px-0 justify-center rounded-2xl">
+      <div data-aos="fade-up"  className="p-4 ">
+        <div  className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 sm:px-0 justify-center rounded-2xl">
           {data.map(({ id, title, child }) => (
             <div
+            
               key={id}
               className="flex flex-col justify-center items-center hover:scale-105 duration-500"
             >
