@@ -13,10 +13,10 @@ const Service = ({ data, Title }) => {
       <div className="py-10 flex flex-col justify-center items-center ">
         <h2 className="text-2xl text-bold text-second py-4">Mes Services</h2>
         <div className=" grid grid-cols-1 sm:grid-cols-2 gap-6 text-center py-8 px-0 justify-center items-center ">
-          {NewData.map(({ id, title, description, src }) => (
+          {NewData.map(({ id, title, description, src,style }) => (
             <div
               key={id}
-              className="rounded-lg flex flex-col justify-center items-center p-5 border-[1px] border-second hover:scale-105 duration-500 xl:w-2/3 w-full h-full mx-auto"
+              className={`rounded-lg flex flex-col justify-center items-center p-5 border-[1px] ${style} hover:scale-105 duration-500 xl:w-2/3 w-full h-full mx-auto`}
             >
               <div className="border-[1px] border-black flex  shadow-md  backdrop-blur-sm rounded-full w-24 h-24 ">
                 <div

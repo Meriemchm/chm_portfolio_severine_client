@@ -171,12 +171,14 @@ export const services = [
     title: "La conception graphique",
     description:
       "création de logo et d’identité visuelle et supports imprimés ( cartes de visites, plaquettes, affiches)",
+    style: "border-second",
   },
   {
     id: 2,
     src: "programmation-web.png",
     title: "La communication digitale",
     description: "création de sites internet",
+    style: "border-second",
   },
   {
     id: 3,
@@ -184,12 +186,14 @@ export const services = [
     title: "Le conseil en développement d’audience",
     description:
       "des campagnes de communication coordonnées avec la gestion des réseaux sociaux",
+    style: "border-second",
   },
   {
     id: 4,
     src: "programmation-web.png",
     title: "La stratégie de communication",
     description: "conseil en communication et marketing",
+    style: "border-second",
   },
 ];
 
@@ -229,6 +233,7 @@ export const ServiceSolution = [
     title: "Conseil en communication",
     description:
       "Avant de créer tout support de communication, j’essaye de penser à son impact. En communication, celui qui s’adapte et anticipe le mieux, obtient la meilleure des réputations. ",
+    style: "border-primary",
   },
   {
     id: 2,
@@ -236,6 +241,7 @@ export const ServiceSolution = [
     title: "Conseil en communication digitale ",
     description:
       "Je pourrais créer pour vous des sites internet responsives, et des applications mobiles... Je saurai vous conseiller et réaliser des outils adaptés à vos projets...",
+    style: "border-primary",
   },
 ];
 

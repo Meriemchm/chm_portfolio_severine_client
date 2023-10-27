@@ -95,11 +95,11 @@ const About = () => {
             </button>
           </div>
         </div>
-        <div className="bg-primary rounded-lg md:flex items-center justify-center p-2">
+        <div className="bg-primary rounded-lg md:flex items-center justify-center p-2 md:w-[30rem] h-auto md:h-[20rem] md:relative">
           <img
             src="js_5968292.png"
             alt="MyProfile"
-            className="rounded-lg mx-auto md:w-[30rem] h-auto md:h-[20rem] object-cover "
+            className="rounded-lg mx-auto md:w-[35rem] h-auto md:h-[20rem] object-cover md:absolute md:-top-8 md:-left-4"
           />
         </div>
       </div>
