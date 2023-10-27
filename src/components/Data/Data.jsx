@@ -132,40 +132,44 @@ export const Navlink = [
 export const projects = [
   {
     id: 1,
-    src: "js_5968292.png",
+    src: "bookimg.JPG",
     title: "Booki",
     description:
       "L'objectif était d'intégrer la maquette d'un site de planification de vacances nommé 'Booki', en respectant les spécifications fonctionnelles et techniques.",
     hcode: "https://github.com/dalsantosev/gitproject-3",
     hdemo: "https://dalsantosev.github.io/gitproject-3/",
+    pdf: "booki.pdf",
   },
   {
     id: 2,
-    src: "js_5968292.png",
+    src: "sofie.JPG",
     title: "Sophie Bluel",
     description:
       "L’objectif était de concevoir le site portfolio d'une architecte d'intérieur et de le rendre dynamique en utilisant JavaScript. Le site devait permettre de faire un tri des projets par catégorie dans la galerie, mais aussi de reprendre dynamiquement les données des travaux de l’architecte via une API. Il devait également permettre à l'architecte de se connecter pour éditer son site. Pour finir, ce site devait être constitué d'une modale lui permettant de gérer ses projets : ajout, suppression de projet,...",
     hcode: "https://github.com/dalsantosev/Projet-6---Sophie-Bluel",
     hdemo: "",
+    pdf: "SophieBluel.pdf",
   },
 
   {
     id: 3,
-    src: "js_5968292.png",
+    src: "kasaimg.JPG",
     title: "Kasa",
     description:
       "Ce projet captivant a consisté à créer la plateforme web pour Kasa, une entreprise spécialisée dans la location d'appartements entre particuliers. J'ai développé la plateforme en concevant le routeur et les différentes pages, grâce à React. J'ai créé un carrousel, utilisé des composants réutilisables, et mis en place une gestion des tests...",
     hcode: "https://github.com/dalsantosev/Projet-8",
     hdemo: "",
+    pdf: "Kasa.pdf",
   },
   {
     id: 4,
-    src: "js_5968292.png",
+    src: "qwentaimg.JPG",
     title: "Qwenta",
     description:
       "Je devais mettre en place une veille informationnelle avec un outil prévu à cet effet, mais aussi mettre en place les spécifications techniques à partir des spécifications fonctionnelles, de la maquette ainsi que des user stories. Je devais également mettre en place un kanban pour la mission avec l'outil de mon choix.",
     hcode: "https://github.com/dalsantosev/Projet-7",
     hdemo: "https://trello.com/b/K1fX2qDh/kanban",
+    pdf: "Qwenta.pdf",
   },
 ];
 
