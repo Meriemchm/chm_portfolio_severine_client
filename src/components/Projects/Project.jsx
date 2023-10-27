@@ -5,29 +5,37 @@ import { CiShare1 } from "react-icons/ci";
 const Project = () => {
   return (
     <div className="mx-auto grid grid-cols-1 xl:grid-cols-2 gap-6 text-center py-8 px-0 justify-center items-center ">
-      {projects.map(({ id, src, title, description }) => {
+      {projects.map(({ id, src, title, description, hdemo, hcode }) => {
         return (
           <div
             key={id}
-            className="mx-auto md:flex shadow-md shadow-gray-600 bg-white rounded-lg  duration-200 hover:scale-105"
+            className="mx-auto md:flex shadow-md shadow-gray-600 bg-white rounded-lg"
           >
-            <img src="" alt="" className="rounded-md h-52 w-full md:h-64 md:w-64 object-cover" />
+            <img
+              src={src}
+              alt=""
+              className="rounded-md h-52 w-full md:h-64 md:w-64 object-cover duration-200 hover:scale-[0.99]"
+            />
 
-            <div className="flex flex-col items-start justify-start text-gray-800 mx-5 my-4 ">
-              <h2 className="text-bold capitalize">{title}</h2>
-              <p>{description}</p>
-              <div className="flex justify-end items-end">
-                <button className="flex w1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code{" "}
-                  <span>
-                    <AiFillGithub size={25} className="ml-2" />
-                  </span>
+            <div className="flex flex-col  text-gray-800 mx-5 my-4 justify-between">
+              <h2 className="text-bold text-2xl capitalize mb-2 self-start">{title}</h2>
+              <p className="text-start text-sm">{description}</p>
+              <div className="flex justify-end items-end  mt-4">
+                <button className="flex w1/2 py-3 duration-200 hover:scale-105">
+                  <a href={hcode} target="_blank" className="flex">
+                    Code{" "}
+                    <span>
+                      <AiFillGithub size={25} className="ml-2" />
+                    </span>
+                  </a>
                 </button>
-                <button className="flex w1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo{" "}
-                  <span>
-                    <CiShare1 size={20} className="ml-2 mt-1" />
-                  </span>
+                <button className="flex w1/2 px-6 py-3  duration-200 hover:scale-105">
+                  <a href={hdemo} target="_blank" className="flex">
+                    Demo{" "}
+                    <span>
+                      <CiShare1 size={20} className="ml-2 mt-1" />
+                    </span>{" "}
+                  </a>
                 </button>
               </div>
             </div>

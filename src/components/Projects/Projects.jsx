@@ -10,6 +10,7 @@ const Projects = () => {
 
           <div className="h-0.5 flex-grow bg-second "></div>
         </div>
+        <p className="text-lg">Quelque de mes projets développement web</p>
         <Project />
     </div>
   
