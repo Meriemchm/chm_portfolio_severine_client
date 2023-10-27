@@ -21,11 +21,10 @@ const Contact = () => {
       <div className="flex flex-col xl:flex-row justify-center items-center xl:items-start md:gap-20 md:w-full">
         <div className="px-5 2xl:px-5 md:px-20">
           <h2 className="text-bold text-2xl ">
-            Collaborons ensemble et creons votre succès
+            Collaborons ensemble et créons votre succès.
           </h2>
           <p className="py-5">
-            Envoyez moi un Email ou vous pouvez prendre rendez vous sur zoom en
-            cliquant la dessus
+            Envoyez-moi un e-mail, ou prenez un rendez-vous, en cliquant sur le lien ci-dessous.
           </p>
           <button className="text-second  px-5 py-2 rounded-md border-[1px] border-second text-bold duration-200 hover:scale-105 ">
             {" "}
