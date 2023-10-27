@@ -15,3 +15,6 @@
   background: #006edc;
   color: black !important;
 }
+.no-scroll {
+  overflow: hidden;
+}
