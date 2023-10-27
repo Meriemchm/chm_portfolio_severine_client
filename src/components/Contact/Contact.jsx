@@ -29,7 +29,7 @@ const Contact = () => {
           </p>
           <button className="text-second  px-5 py-2 rounded-md border-[1px] border-second text-bold duration-200 hover:scale-105 ">
             {" "}
-            <Links to="/Rendez-vous" smooth duration={500}>
+            <Links to="/Rendez-vous" duration={500}>
               Rendez-vous
             </Links>
           </button>

@@ -6,12 +6,13 @@ const SavoirFaire = () => {
     <div data-aos="fade-up" name="savoir-faire" className=" w-full ">
       <div className="md:px-20 mx-auto p-4 flex flex-col  w-full h-full ">
         <div className="flex items-center">
-          <p className="text-2xl md:text-4xl text-second font-bold p-2 inline">
+          <p className=" text-2xl md:text-4xl text-second font-bold p-2">
             Savoir-Faire
           </p>
 
-          <div className="h-0.5 w-full bg-second md:ml-10"></div>
+          <div className="flex-grow h-0.5 bg-second"></div>
         </div>
+
         <div className="xl:w-1/2">
           <h2 className="text-bold py-10  text-3xl">
             <span className="text-primary">Créativité</span> et{" "}

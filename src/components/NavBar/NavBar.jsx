@@ -5,25 +5,6 @@ import { Navlink } from "../Data/Data";
 import { Link as Links } from "react-router-dom";
 const NavBar = () => {
   const [show, setShow] = useState(false);
-  const [bgColor, setBgColor] = useState("bg-transparent");
-
-  const handleScroll = () => {
-    const scrollY = window.scrollY;
-    const threshold = 100; // seuil de défilement à partir duquel la couleur de fond est modifiée
-
-    if (scrollY > threshold) {
-      setBgColor("bg-gradient-to-r ");
-    } else {
-      setBgColor("bg-transparent");
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <div
@@ -40,7 +21,7 @@ const NavBar = () => {
               key={id}
               className="px-4 cursor-pointer hover:scale-105 duration-200 uppercase"
             >
-              <Link to={link} smooth duration={500}>
+              <Link to={link} smooth={true} duration={500}>
                 {link}
               </Link>
             </li>
@@ -72,7 +53,7 @@ const NavBar = () => {
               >
                 <Link
                   to={link}
-                  smooth
+                  smooth={true}
                   duration={500}
                   onClick={() => setShow(!show)}
                 >
@@ -85,7 +66,7 @@ const NavBar = () => {
       )}
       <button className="bg-primary text-white px-5 py-2 rounded-lg duration-200 hover:scale-105 lg:hidden hidden 2xl:block">
         {" "}
-        <Links to="/Rendez-vous" smooth duration={500}>
+        <Links to="/Rendez-vous" duration={500}>
           Rendez-vous
         </Links>
       </button>

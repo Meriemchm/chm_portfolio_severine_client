@@ -11,7 +11,7 @@ const Meeting = () => {
         <p className="text-xl md:text-2xl text-second font-bold p-2 inline ">
           PRENEZ RENDEZ-VOUS
         </p>
-        <div className="h-0.5 w-full bg-second md:ml-10"></div>
+        <div className="h-0.5 flex-grow bg-second "></div>
       </div>
 
       <MeetingContainer />

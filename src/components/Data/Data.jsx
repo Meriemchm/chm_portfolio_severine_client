@@ -225,14 +225,14 @@ export const menuItemSolution = [
 export const ServiceSolution = [
   {
     id: 1,
-    src: "portfolio.jpg",
+    src: "js_5968292.png",
     title: "Conseil en communication",
     description:
       "Avant de créer tout support de communication, j’essaye de penser à son impact. En communication, celui qui s’adapte et anticipe le mieux, obtient la meilleure des réputations. ",
   },
   {
     id: 2,
-    src: "podcast.jpg",
+    src: "js_5968292.png",
     title: "Conseil en communication digitale ",
     description:
       "Je pourrais créer pour vous des sites internet responsives, et des applications mobiles... Je saurai vous conseiller et réaliser des outils adaptés à vos projets...",

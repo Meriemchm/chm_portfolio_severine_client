@@ -9,7 +9,7 @@ const Solutions = () => {
             Solution
           </p>
 
-          <div className="h-0.5 w-full bg-second md:ml-10"></div>
+          <div className="h-0.5 flex-grow bg-second "></div>
         </div>
       <SolutionBar />
     </div>

@@ -3,18 +3,18 @@ import { links } from "../Data/Data";
 import { Link } from "react-scroll";
 const About = () => {
   return (
-    <div  data-aos="fade-up"  name="apropos" className="flex w-full pb-10 ">
+    <div data-aos="fade-up" name="apropos" className="flex w-full pb-10 ">
       <div className="mx-auto flex flex-col-reverse justify-center items-center px-8 my-16 gap-5 xl:gap-0 xl:flex-row xl:my-0 xl:w-full ">
         <div className="flex flex-col xl:justify-center  xl:w-1/2">
           <h2 className="text-2xl md:text-5xl font-bol">
             Je suis <span className="text-second">Séverine</span>{" "}
           </h2>
-          <p  className="text-primary" >communication et developpement web</p>
-          <div  className="flex my-2">
-            <ul  className="flex flex-row ">
+          <p className="text-primary">communication et developpement web</p>
+          <div className="flex my-2">
+            <ul className="flex flex-row ">
               {links.map(({ id, mobile, href, download }) => {
                 return (
-                  <li  key={id} className="mr-5 hover:scale-105 duration-200">
+                  <li key={id} className="mr-5 hover:scale-105 duration-200">
                     <a
                       href={href ? href : "/"}
                       download={download}
@@ -29,7 +29,7 @@ const About = () => {
               })}
             </ul>
           </div>
-          <p  className="py-8 lg:pr-10 md:w-full">
+          <p className="py-8 lg:pr-10 md:w-full">
             Je m’appelle Allagui Séverine. Diplômée d'une école de commerce
             (bac+5), j’ai pu étudier{" "}
             <span className="text-primary">
@@ -85,7 +85,7 @@ const About = () => {
           <div className="flex gap-5">
             <button className="bg-second  border-[1px] border-second text-white px-5 py-2 rounded-md   text-bold duration-200 hover:scale-105  ">
               {" "}
-              <Link to="contact" smooth duration={500}>
+              <Link to="contact" smooth={true} duration={500}>
                 Me contacter
               </Link>
             </button>
@@ -97,7 +97,7 @@ const About = () => {
         </div>
         <div className="bg-primary rounded-lg md:flex items-center justify-center p-2">
           <img
-            src="personal.jpg"
+            src="js_5968292.png"
             alt="MyProfile"
             className="rounded-lg mx-auto md:w-[30rem] h-auto md:h-[20rem] object-cover "
           />
