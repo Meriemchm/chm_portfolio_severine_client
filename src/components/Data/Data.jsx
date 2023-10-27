@@ -167,7 +167,7 @@ export const projects = [
 export const services = [
   {
     id: 1,
-    src: "programmation-web.png",
+    src: "icons8-pen-100.png",
     title: "La conception graphique",
     description:
       "création de logo et d’identité visuelle et supports imprimés ( cartes de visites, plaquettes, affiches)",
@@ -175,14 +175,14 @@ export const services = [
   },
   {
     id: 2,
-    src: "programmation-web.png",
+    src: "icons8-web-64.png",
     title: "La communication digitale",
     description: "création de sites internet",
     style: "border-second",
   },
   {
     id: 3,
-    src: "programmation-web.png",
+    src: "icons8-lecture-64.png",
     title: "Le conseil en développement d’audience",
     description:
       "des campagnes de communication coordonnées avec la gestion des réseaux sociaux",
@@ -190,7 +190,7 @@ export const services = [
   },
   {
     id: 4,
-    src: "programmation-web.png",
+    src: "communication-blue.png",
     title: "La stratégie de communication",
     description: "conseil en communication et marketing",
     style: "border-second",
@@ -202,42 +202,42 @@ export const menuItemSolution = [
     id: 1,
     path: "/TPE/PME",
     title: "TPE/PME",
-    icon: <MdPersonalVideo size={40} className="text-white" />,
+    icon: "icons8-combo-chart-100.png",
   },
   {
     id: 2,
     path: "/CréateursEntreprise",
     title: "Créateurs d’entreprise",
-    icon: <BiPodcast size={40} className="text-white" />,
+    icon: "icons8-business-group-100.png",
   },
 
   {
     id: 3,
     path: "/RepreneursEntreprisese",
     title: "Repreneurs d’entreprise",
-    icon: <BiPodcast size={40} className="text-white" />,
+    icon: "repreneur-entreprise.png",
   },
 
   {
     id: 4,
     path: "/GrandsComptes",
     title: "Grands comptes",
-    icon: <BiPodcast size={40} className="text-white" />,
+    icon: "icons8-business-report-96.png",
   },
 ];
 
 export const ServiceSolution = [
   {
     id: 1,
-    src: "js_5968292.png",
+    src: "advice-red.png",
     title: "Conseil en communication",
     description:
-      "Avant de créer tout support de communication, j’essaye de penser à son impact. En communication, celui qui s’adapte et anticipe le mieux, obtient la meilleure des réputations. ",
+      "Avant de créer tout support de communication, j’essaye de penser à son impact. En communication, celui qui s’adapte et anticipe le mieux, obtient la meilleure des réputations.J'essaye toujours de trouver des solutions sur mesure et adaptées à vos besoins, budgets, et enjeux.... ",
     style: "border-primary",
   },
   {
     id: 2,
-    src: "js_5968292.png",
+    src: "creation-de-sites-web.png",
     title: "Conseil en communication digitale ",
     description:
       "Je pourrais créer pour vous des sites internet responsives, et des applications mobiles... Je saurai vous conseiller et réaliser des outils adaptés à vos projets...",

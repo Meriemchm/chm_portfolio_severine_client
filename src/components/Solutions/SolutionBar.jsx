@@ -5,12 +5,12 @@ import { ServiceSolution } from "../Data/Data";
 const SolutionBar = () => {
   return (
     <>
-      <div className="mx-auto rounded-lg grid grid-cols-2 sm:grid-cols-4 lg:gap-20 select-none bg-second justify-center items-center ">
+      <div className="mx-auto rounded-lg grid grid-cols-2 sm:grid-cols-4 lg:gap-20 bg-second justify-center items-center ">
         {menuItemSolution.map((item, id) => {
           return (
             <div key={id}>
               <li
-                className={`flex flex-col md:py-5 px-3 py-3 items-center md:gap-5 gap-2 cursor-pointer 
+                className={`flex flex-col md:py-5 px-3 py-3 items-center md:gap-5 gap-2 
                   `}
               >
                 <div
@@ -18,9 +18,10 @@ const SolutionBar = () => {
                     
                       `}
                 >
-                  {item.icon}
+                  <img className="h-14 " src={item.icon} alt="" />
+                  
                 </div>
-                <p className={`text-center capitalize text-white`}>
+                <p className={`text-center capitalize text-white text-sm md:text-base`}>
                   {" "}
                   {item.title}
                 </p>

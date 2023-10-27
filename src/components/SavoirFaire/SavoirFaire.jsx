@@ -13,8 +13,8 @@ const SavoirFaire = () => {
           <div className="flex-grow h-0.5 bg-second"></div>
         </div>
 
-        <div className="xl:w-1/2">
-          <h2 className="text-bold py-10  text-3xl">
+        <div className="xl:w-2/3">
+          <h2 className=" py-10  text-3xl">
             <span className="text-primary">Créativité</span> et{" "}
             <span className="text-primary">communication</span> vont souvent de
             pair
