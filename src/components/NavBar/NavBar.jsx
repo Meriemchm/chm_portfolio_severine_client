@@ -19,7 +19,8 @@ const NavBar = () => {
           return (
             <li
               key={id}
-              className="px-4 cursor-pointer hover:scale-105 duration-200 uppercase"
+              className=" 
+               px-4 cursor-pointer hover:scale-105 duration-200 uppercase"
             >
               <Link to={link} smooth={true} duration={500}>
                 {link}
