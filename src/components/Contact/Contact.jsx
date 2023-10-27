@@ -21,7 +21,7 @@ const Contact = () => {
       <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start md:gap-20 md:w-full">
         <div className="px-5">
           <h2 className="text-bold text-2xl ">
-            Collaborons ensemble et creons votre succces
+            Collaborons ensemble et creons votre succès
           </h2>
           <p className="py-5">
             Envoyez moi un Email ou vous pouvez prendre rendez vous sur zoom en

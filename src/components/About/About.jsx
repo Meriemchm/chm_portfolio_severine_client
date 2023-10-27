@@ -40,7 +40,7 @@ const About = () => {
             formation universitaire de niveau licence...
             <br />
             <br />
-            Suite à une formation chez Openclassroom en{" "}
+            Suite à une formation chez OpenClassrooms en{" "}
             <span className="text-primary">développement web</span> , j’ai pu
             approfondir les langages de développement web, et le
             référencement...
