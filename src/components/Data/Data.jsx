@@ -109,7 +109,7 @@ export const Navlink = [
   },
   {
     id: 2,
-    link: "apropos",
+    link: "a propos",
   },
   {
     id: 3,
@@ -121,7 +121,7 @@ export const Navlink = [
   },
   {
     id: 5,
-    link: "projects",
+    link: "projets",
   },
   {
     id: 6,
@@ -177,7 +177,7 @@ export const services = [
   {
     id: 1,
     src: "icons8-pen-100.png",
-    title: "La conception graphique",
+    title: "Création de logo",
     description:
       "création de logo et d’identité visuelle et supports imprimés ( cartes de visites, plaquettes, affiches)",
     style: "border-second",
@@ -185,14 +185,14 @@ export const services = [
   {
     id: 2,
     src: "icons8-web-64.png",
-    title: "La communication digitale",
+    title: "Création de site web",
     description: "création de sites internet",
     style: "border-second",
   },
   {
     id: 3,
     src: "icons8-lecture-64.png",
-    title: "Le conseil en développement d’audience",
+    title: "Conseil en développement Des Campagnes",
     description:
       "des campagnes de communication coordonnées avec la gestion des réseaux sociaux",
     style: "border-second",
@@ -200,7 +200,7 @@ export const services = [
   {
     id: 4,
     src: "communication-blue.png",
-    title: "La stratégie de communication",
+    title: "Conseil en communication",
     description: "conseil en communication et marketing",
     style: "border-second",
   },
