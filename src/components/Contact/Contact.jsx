@@ -34,7 +34,7 @@ const Contact = () => {
           </button>
         </div>
 
-        <div className="p-5 flex backdrop-blur-lg bg-white/30 rounded-lg lg:w-1/3">
+        <div className="p-5 flex rounded-lg lg:w-1/3">
           <form
             action={client}
             method="POST"
