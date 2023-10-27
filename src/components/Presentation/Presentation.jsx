@@ -14,7 +14,7 @@ const Presentation = () => {
             Allagui Séverine
           </h2>
           <p className="text-primary text-right">
-            Spécialisé dans la communication et le développement web
+            Spécialisée dans la communication et le développement web
           </p>
         </div>
       </div>
