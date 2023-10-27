@@ -166,7 +166,7 @@ export const projects = [
     src: "qwentaimg.JPG",
     title: "Qwenta",
     description:
-      "Je devais mettre en place une veille informationnelle avec un outil prévu à cet effet, mais aussi mettre en place les spécifications techniques à partir des spécifications fonctionnelles, de la maquette ainsi que des user stories. Je devais également mettre en place un kanban pour la mission avec l'outil de mon choix.",
+      "Je devais mettre en place une veille informationnelle avec un outil prévu à cet effet (voir Demo), mais aussi mettre en place les spécifications techniques à partir des spécifications fonctionnelles, de la maquette ainsi que des user stories. Je devais également mettre en place un kanban pour la mission avec l'outil de mon choix.",
     hcode: "https://github.com/dalsantosev/Projet-7",
     hdemo: "https://trello.com/b/K1fX2qDh/kanban",
     pdf: "Qwenta.pdf",
