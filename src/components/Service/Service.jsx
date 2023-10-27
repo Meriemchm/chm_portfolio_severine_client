@@ -18,9 +18,9 @@ const Service = ({ data, Title }) => {
               key={id}
               className={`rounded-lg flex flex-col justify-center items-center p-5 border-[1px] ${style} hover:scale-105 duration-500 xl:w-2/3 w-full h-full mx-auto`}
             >
-              <div className="border-[1px] border-black flex  shadow-md  backdrop-blur-sm rounded-full w-24 h-24 ">
+              <div className={`border-[1px] ${style}  flex  shadow-md  backdrop-blur-sm rounded-full w-24 h-24`}>
                 <div
-                  className={`m-auto rounded-full w-20 h-24 flex justify-center items-center `}
+                  className={`m-auto rounded-full w-20 h-24 flex justify-center items-center  `}
                 >
                   <img className="rounded-full" src={src} alt="skill" />
                 </div>

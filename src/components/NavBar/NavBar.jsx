@@ -14,7 +14,7 @@ const NavBar = () => {
         <h1 className=" font-extrabold  text-4xl ml-2 md:text-5xl ">Logo</h1>
       </div>
 
-      <ul className="hidden 2xl:flex ">
+      <ul className="hidden 2xl:flex items-center">
         {Navlink.map(({ id, link }) => {
           return (
             <li
@@ -27,6 +27,12 @@ const NavBar = () => {
             </li>
           );
         })}
+        <button className="bg-primary text-white px-5 py-2 rounded-lg duration-200 hover:scale-105 lg:hidden hidden 2xl:block ml-5">
+          {" "}
+          <Links to="/Rendez-vous" duration={500}>
+            Rendez-vous
+          </Links>
+        </button>
       </ul>
 
       <div
@@ -41,6 +47,7 @@ const NavBar = () => {
       </div>
       {show && (
         <ul
+          data-aos="fade-left"
           className={`bg-second text-white flex flex-col justify-center items-center absolute top-0 right-0 w-1/2 h-screen transition-transform transform ${
             show ? "translate-x-0" : "translate-x-full"
           } duration-300 ease-in-out`}
@@ -49,7 +56,7 @@ const NavBar = () => {
             return (
               <li
                 key={id}
-                className="px-4 py-4 cursor-pointer text-2xl hover:scale-105 duration-200 uppercase"
+                className="px-4 py-4 cursor-pointer text-xl hover:scale-105 duration-200 uppercase"
               >
                 <Link
                   to={link}
@@ -62,14 +69,14 @@ const NavBar = () => {
               </li>
             );
           })}
+          <button className="bg-transparent border-[1px] border-white text-white px-5 py-2 rounded-lg text-xl duration-200 hover:scale-105 2xl:block mt-5">
+            {" "}
+            <Links to="/Rendez-vous" duration={500}>
+              Rendez-vous
+            </Links>
+          </button>
         </ul>
       )}
-      <button className="bg-primary text-white px-5 py-2 rounded-lg duration-200 hover:scale-105 lg:hidden hidden 2xl:block">
-        {" "}
-        <Links to="/Rendez-vous" duration={500}>
-          Rendez-vous
-        </Links>
-      </button>
     </div>
   );
 };

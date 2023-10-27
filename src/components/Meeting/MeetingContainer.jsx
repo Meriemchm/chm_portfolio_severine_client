@@ -6,7 +6,6 @@ import { formItem } from "../Data/Data";
 const MeetingContainer = () => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [selectedDateTime, setSelectedDateTime] = useState(null);
-  const mine = "https://getform.io/f/c32b25bc-8fbe-4a27-b89c-9bea5bcf16be";
   const client = "https://getform.io/f/96dc7a6f-74c5-444c-87bf-ed40cd40cedb";
   const inputItem = formItem.filter((item) => item.categorie === "input");
   const endElemnt = inputItem.slice(-1)[0];
@@ -38,7 +37,7 @@ const MeetingContainer = () => {
       </div>
       <div className="p-5 flex backdrop-blur-lg bg-white/30 rounded-lg lg:w-1/3">
         <form
-          action={mine}
+          action={client}
           method="POST"
           className="flex flex-col w-full justify-center mt-5 gap-4"
         >
@@ -96,9 +95,7 @@ const MeetingContainer = () => {
             )}
           </div>
 
-          <button
-            className="text-white bg-primary px-6 py-3 my-2 mx-auto flex items-center rounded-md hover:scale-110 duration-300 mt-[-0.5rem]"
-          >
+          <button className="text-white bg-primary px-6 py-3 my-2 mx-auto flex items-center rounded-md hover:scale-110 duration-300 mt-[-0.5rem]">
             Réserver
           </button>
           <p>
