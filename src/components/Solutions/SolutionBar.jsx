@@ -32,7 +32,7 @@ const SolutionBar = () => {
       </div>
 
       <>
-        <div className="md:px-36">
+        <div className="lg:px-36">
           <Service Title="" data={ServiceSolution} />
         </div>
       </>

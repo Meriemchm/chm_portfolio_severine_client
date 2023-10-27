@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div data-aos="fade-up" name="apropos" className="flex w-full pb-10 ">
       <div className="mx-auto flex flex-col-reverse justify-center items-center px-8 my-16 gap-5 xl:gap-0 xl:flex-row xl:my-0 xl:w-full ">
-        <div className="flex flex-col xl:justify-center  xl:w-1/2">
+        <div className="flex flex-col xl:justify-center md:px-8 xl:w-1/2">
           <h2 className="text-2xl md:text-5xl font-bol">
             Je suis <span className="text-second">Séverine</span>{" "}
           </h2>
@@ -95,11 +95,11 @@ const About = () => {
             </button>
           </div>
         </div>
-        <div className="bg-primary rounded-lg md:flex items-center justify-center p-2 md:w-[30rem] h-auto md:h-[20rem] md:relative">
+        <div className="bg-primary rounded-lg md:flex items-center justify-center p-2 md:w-[20rem] h-[20rem] w-[15rem]  md:h-[23rem] relative mb-16">
           <img
-            src="js_5968292.png"
+            src="profile.png"
             alt="MyProfile"
-            className="rounded-lg mx-auto md:w-[35rem] h-auto md:h-[20rem] object-cover md:absolute md:-top-8 md:-left-4"
+            className="rounded-lg mx-auto md:w-[20rem] h-[20rem] w-[15rem] md:h-[23rem] object-cover  absolute -top-8 -left-4"
           />
         </div>
       </div>

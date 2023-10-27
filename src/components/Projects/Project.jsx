@@ -20,8 +20,8 @@ const Project = () => {
             <div className="flex flex-col  text-gray-800 mx-5 my-4 justify-between">
               <h2 className="text-bold text-2xl capitalize mb-2 self-start">{title}</h2>
               <p className="text-start text-sm">{description}</p>
-              <div className="flex justify-end items-end  mt-4">
-                <button className="flex w1/2 py-3 duration-200 hover:scale-105">
+              <div className="flex justify-end items-end gap-3 mt-4">
+                <button className="flex w1/2 px-6 py-3 duration-200 hover:scale-105">
                   <a href={hcode} target="_blank" className="flex">
                     Code{" "}
                     <span>
@@ -29,7 +29,7 @@ const Project = () => {
                     </span>
                   </a>
                 </button>
-                <button className="flex w1/2 px-6 py-3  duration-200 hover:scale-105">
+                <button className="flex w1/2 px-6 py-3 rounded-lg border-[2px] border-gray-200  duration-200 hover:scale-105">
                   <a href={hdemo} target="_blank" className="flex">
                     Demo{" "}
                     <span>
