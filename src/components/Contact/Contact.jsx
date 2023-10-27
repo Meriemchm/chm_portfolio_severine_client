@@ -3,6 +3,7 @@ import { formItem } from "../Data/Data";
 import { Link as Links } from "react-router-dom";
 const Contact = () => {
   const client = "https://getform.io/f/96dc7a6f-74c5-444c-87bf-ed40cd40cedb";
+  const mine = "https://getform.io/f/c32b25bc-8fbe-4a27-b89c-9bea5bcf16be";
   const inputItem = formItem.filter((item) => item.categorie === "input");
   const areaItem = formItem.filter((item) => item.categorie === "textarea");
   const endElemnt = inputItem.slice(-1)[0];
@@ -37,7 +38,7 @@ const Contact = () => {
 
         <div className="p-5 flex backdrop-blur-lg bg-white/30 rounded-lg lg:w-1/3">
           <form
-            action={client}
+            action={mine}
             method="POST"
             className="flex flex-col w-full justify-center mt-5 gap-4"
           >
