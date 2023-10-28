@@ -10,9 +10,7 @@ const NavBar = () => {
     <div
       className={`bg-white flex justify-between items-center w-full h-20  px-4 md:px-20 fixed z-10`}
     >
-      <div>
-        <h1 className=" font-extrabold  text-4xl ml-2 md:text-5xl ">Logo</h1>
-      </div>
+      <img src="../public/PNG.png" className="object-contain h-14" />
 
       <ul className="hidden 2xl:flex items-center">
         {Navlink.map(({ id, link }) => {
