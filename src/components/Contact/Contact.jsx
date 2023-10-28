@@ -18,8 +18,8 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex flex-col xl:flex-row justify-center items-center xl:items-start md:gap-20 md:w-full">
-        <div className="px-5 2xl:mr-20 md:px-20">
+      <div className="flex flex-col 2xl:flex-row justify-center items-center 2xl:items-start 2xl:justify-start md:w-full lg:px-0 ">
+        <div className="md:self-start px-5 md:px-32">
           <h2 className="text-bold text-2xl ">
             Collaborons ensemble et créons votre succès.
           </h2>
@@ -34,7 +34,7 @@ const Contact = () => {
           </button>
         </div>
 
-        <div className="p-5 flex rounded-lg lg:w-1/3">
+        <div className="p-5 flex rounded-lg">
           <form
             action={client}
             method="POST"
