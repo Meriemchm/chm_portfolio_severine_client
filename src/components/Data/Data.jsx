@@ -112,6 +112,10 @@ export const Navlink = [
     link: "a propos",
   },
   {
+    id: 7,
+    link: "compétences",
+  },
+  {
     id: 3,
     link: "savoir-faire",
   },

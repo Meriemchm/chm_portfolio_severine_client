@@ -3,11 +3,11 @@ import Skill from "./Skill";
 import { techs } from "../Data/Data";
 const Skills = () => {
   return (
-    <div  name="skills" className=" w-full ">
+    <div  name="compétences" className=" w-full ">
       <div className="md:px-20 mx-auto p-4 flex flex-col  w-full h-full text-white">
         <div className="flex items-center">
           <p className="text-2xl md:text-4xl text-second font-bold p-2 inline">
-            Compétances
+            Compétences
           </p>
 
           <div className="h-0.5 w-full bg-second"></div>
