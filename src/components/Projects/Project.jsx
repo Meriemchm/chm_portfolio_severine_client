@@ -30,10 +30,15 @@ const Project = () => {
   return (
     <div className="mx-auto grid grid-cols-1 xl:grid-cols-2 gap-6 text-center py-8 px-0 justify-center items-center ">
       {projects.map(({ id, src, title, description, hdemo, hcode, pdf }) => {
+        const [isTruncated, setIsTruncated] = useState(true);
+
+        const toggleTruncate = () => {
+          setIsTruncated(!isTruncated);
+        };
         return (
           <div
             key={id}
-            className=" shadow-md shadow-gray-600 bg-white rounded-lg"
+            className="shadow-md shadow-gray-600 bg-white rounded-lg self-start"
           >
             <div className="relative group ">
               <img
@@ -54,9 +59,25 @@ const Project = () => {
               <h2 className="text-bold text-2xl capitalize mb-2 self-start">
                 {title}
               </h2>
-             
-                <p className="text-start text-sm mr-5">{description}</p>
-            
+
+              <p className="text-start text-sm ">
+                {isTruncated
+                  ? description.slice(0, description.lastIndexOf(" ", 150))
+                  : description}
+
+                {description.length > 150 && (
+                  <button
+                    className="text-bold pl-1"
+                    onClick={(e) => {
+                      e.stopPropagation(); // Arrête la propagation de l'événement
+                      toggleTruncate();
+                    }}
+                  >
+                    {isTruncated ? "Voir plus" : "Voir moins"}
+                  </button>
+                )}
+              </p>
+
               <div className="flex justify-end items-end gap-3 mt-4">
                 <button className="flex  px-6 py-3 duration-200 hover:scale-105">
                   <a href={hcode} target="_blank" className="flex">
