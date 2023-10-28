@@ -91,7 +91,9 @@ const About = () => {
             </button>
             <button className="bg-tansparent  border-[1px] border-second text-second px-5 py-2 rounded-md text-bold duration-200 hover:scale-105  ">
               {" "}
-              Voir mon cv
+              <a href="/resume.pdf" download>
+                Voir mon cv
+              </a>
             </button>
           </div>
         </div>
