@@ -49,7 +49,7 @@ const NavBar = () => {
       {show && (
         <ul
           data-aos="fade-left"
-          className={`bg-second text-white flex flex-col justify-center items-center absolute top-0 right-0 w-1/2 h-screen transition-transform transform ${
+          className={`bg-second text-white flex flex-col justify-center items-start absolute top-0 right-0 w-1/2 h-screen transition-transform transform ${
             show ? "translate-x-0" : "translate-x-full"
           } duration-300 ease-in-out`}
         >
@@ -57,7 +57,7 @@ const NavBar = () => {
             return (
               <li
                 key={id}
-                className="px-4 py-4 cursor-pointer text-xl hover:scale-105 duration-200 uppercase"
+                className="px-6 py-4 cursor-pointer md:text-xl hover:scale-105 duration-200 uppercase"
               >
                 <Link
                   to={link}
@@ -70,7 +70,7 @@ const NavBar = () => {
               </li>
             );
           })}
-          <button className="bg-transparent border-[1px] border-white text-white px-5 py-2 rounded-lg text-xl duration-200 hover:scale-105 2xl:block mt-5">
+          <button className="bg-transparent text-white px-5  rounded-lg text-xl duration-200 hover:scale-105 2xl:block mt-5">
             {" "}
             <Links to="/Rendez-vous" duration={500}>
               Rendez-vous
