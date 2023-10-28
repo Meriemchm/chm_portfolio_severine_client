@@ -39,7 +39,7 @@ const Project = () => {
               <img
                 src={src}
                 alt="project-name"
-                className="rounded-lg"
+                className="rounded-lg h-60 w-full object-cover"
               />
 
               <div

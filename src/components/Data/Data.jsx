@@ -183,29 +183,29 @@ export const services = [
     src: "icons8-pen-100.png",
     title: "Création de logo",
     description:
-      "création de logo et d’identité visuelle et supports imprimés ( cartes de visites, plaquettes, affiches)",
+      "Création de logo et d’identité visuelle et supports imprimés ( cartes de visites, plaquettes, affiches)",
     style: "border-second",
   },
   {
     id: 2,
     src: "icons8-web-64.png",
     title: "Création de site web",
-    description: "création de sites internet",
+    description: "Création de sites internet",
     style: "border-second",
   },
   {
     id: 3,
     src: "icons8-lecture-64.png",
-    title: "Conseil en développement Des Campagnes",
+    title: "Conseil en développement des Campagnes",
     description:
-      "des campagnes de communication coordonnées avec la gestion des réseaux sociaux",
+      "Des campagnes de communication coordonnées avec la gestion des réseaux sociaux",
     style: "border-second",
   },
   {
     id: 4,
     src: "communication-blue.png",
     title: "Conseil en communication",
-    description: "conseil en communication et marketing",
+    description: "Conseil en communication et marketing",
     style: "border-second",
   },
 ];

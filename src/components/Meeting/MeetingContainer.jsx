@@ -30,7 +30,7 @@ const MeetingContainer = () => {
       className="flex flex-col lg:flex-row gap-10 justify-center items-center lg:items-start"
     >
       <div>
-        <h1>
+        <h1 className="pb-4">
           Réservez un rendez-vous sur <span className="text-primary">Zoom</span>{" "}
         </h1>
         <Calendar onChange={handleDateChange} value={selectedDate} required />
