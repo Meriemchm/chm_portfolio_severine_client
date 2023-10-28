@@ -10,8 +10,6 @@ import "@react-pdf-viewer/core/lib/styles/index.css";
 const Project = () => {
   const [showPDF, setShowPDF] = useState(false);
   const [pdfSrc, setPdfSrc] = useState("");
-  const [hovered, setHovered] = useState(null);
-  const newplugin = defaultLayoutPlugin();
 
   const togglePDF = (pdf) => {
     setShowPDF(!showPDF);
@@ -83,7 +81,7 @@ const Project = () => {
       })}
       {showPDF && (
         <div className=" mt-10 fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center">
-          <div className="z-999999 bg-white w-2/3 h-5/6 p-4  overflow-y-auto rounded-md relative">
+          <div className="z-999999 bg-white w-80 h-5/6 md:w-2/3 md:h-5/6 p-4  overflow-y-auto rounded-md relative">
             <button
               onClick={closePDF}
               className="absolute top-1 left-3 z-10 text-xl font-bold text-gray-800"
