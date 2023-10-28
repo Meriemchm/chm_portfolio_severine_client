@@ -28,33 +28,35 @@ const Project = () => {
   };
 
   return (
-    <div className="mx-auto grid grid-cols-1 xl:grid-cols-1 gap-6 text-center py-8 px-0 justify-center items-center ">
+    <div className="mx-auto grid grid-cols-1 xl:grid-cols-2 gap-6 text-center py-8 px-0 justify-center items-center ">
       {projects.map(({ id, src, title, description, hdemo, hcode, pdf }) => {
         return (
           <div
             key={id}
-            className=" md:flex shadow-md shadow-gray-600 bg-white rounded-lg"
+            className=" shadow-md shadow-gray-600 bg-white rounded-lg"
           >
             <div className="relative group ">
               <img
                 src={src}
                 alt="project-name"
-                className="rounded-md object-cover w-full h-full "
+                className="rounded-lg"
               />
 
               <div
                 onClick={() => togglePDF(pdf)}
-                className="absolute inset-0  bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer select-none"
+                className="absolute inset-0 rounded-lg bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer select-none"
               >
                 En savoir plus
               </div>
             </div>
 
-            <div className="flex flex-col flex-grow text-gray-800 mx-5 my-4 justify-between">
+            <div className="mx-5 flex flex-col text-gray-800 my-4 justify-between">
               <h2 className="text-bold text-2xl capitalize mb-2 self-start">
                 {title}
               </h2>
-              <p className="text-start text-sm">{description}</p>
+             
+                <p className="text-start text-sm mr-5">{description}</p>
+            
               <div className="flex justify-end items-end gap-3 mt-4">
                 <button className="flex  px-6 py-3 duration-200 hover:scale-105">
                   <a href={hcode} target="_blank" className="flex">
