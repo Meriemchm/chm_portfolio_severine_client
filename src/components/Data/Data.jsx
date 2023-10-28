@@ -185,6 +185,7 @@ export const services = [
     description:
       "Création de logo et d’identité visuelle et supports imprimés ( cartes de visites, plaquettes, affiches)",
     style: "border-second",
+    textStyle : "text-second"
   },
   {
     id: 2,
@@ -192,6 +193,7 @@ export const services = [
     title: "Création de site web",
     description: "Création de sites internet",
     style: "border-second",
+    textStyle : "text-second"
   },
   {
     id: 3,
@@ -200,6 +202,7 @@ export const services = [
     description:
       "Des campagnes de communication coordonnées avec la gestion des réseaux sociaux",
     style: "border-second",
+    textStyle : "text-second"
   },
   {
     id: 4,
@@ -207,6 +210,7 @@ export const services = [
     title: "Conseil en communication",
     description: "Conseil en communication et marketing",
     style: "border-second",
+    textStyle : "text-second"
   },
 ];
 
@@ -247,6 +251,7 @@ export const ServiceSolution = [
     description:
       "Avant de créer tout support de communication, j’essaye de penser à son impact. En communication, celui qui s’adapte et anticipe le mieux, obtient la meilleure des réputations.J'essaye toujours de trouver des solutions sur mesure et adaptées à vos besoins, budgets, et enjeux.... ",
     style: "border-primary",
+    textStyle : "text-primary"
   },
   {
     id: 2,
@@ -255,6 +260,7 @@ export const ServiceSolution = [
     description:
       "Je pourrais créer pour vous des sites internet responsives, et des applications mobiles... Je saurai vous conseiller et réaliser des outils adaptés à vos projets...",
     style: "border-primary",
+    textStyle : "text-primary"
   },
 ];
 
