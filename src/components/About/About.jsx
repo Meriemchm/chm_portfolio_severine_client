@@ -3,7 +3,7 @@ import { links } from "../Data/Data";
 import { Link } from "react-scroll";
 const About = () => {
   return (
-    <div data-aos="fade-up" name="apropos" className="flex w-full pb-10 ">
+    <div data-aos="fade-up" name="a propos" className="flex w-full pb-10 ">
       <div className="mx-auto flex flex-col-reverse justify-center items-center px-8 my-16 gap-5 xl:gap-0 xl:flex-row xl:my-0 xl:w-full ">
         <div className="flex flex-col xl:justify-center md:px-8 xl:w-1/2">
           <h2 className="text-2xl md:text-5xl font-bol">
