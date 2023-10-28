@@ -16,7 +16,7 @@ const Service = ({ data, Title }) => {
           {NewData.map(({ id, title, description, src,style }) => (
             <div
               key={id}
-              className={`rounded-lg flex flex-col justify-center items-center p-5 border-[1px] ${style}  xl:w-2/3 w-full h-full mx-auto`}
+              className={`rounded-lg flex flex-col justify-center items-center p-5 border-[1px] ${style} w-full h-full mx-auto`}
             >
               <div className={`pt-5  flex w-24 h-24`}>
                 <div

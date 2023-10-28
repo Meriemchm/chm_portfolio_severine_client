@@ -37,7 +37,9 @@ const SavoirFaire = () => {
             ainsi que de conseil en développement d’audience...{" "}
           </p>
         </div>
-        <Service data={services} Title="" />
+        <div className=" xl:px-44">
+          <Service data={services} Title="" />
+        </div>
       </div>
     </div>
   );

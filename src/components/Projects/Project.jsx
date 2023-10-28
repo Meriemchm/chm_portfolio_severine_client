@@ -79,7 +79,7 @@ const Project = () => {
               </p>
 
               <div className="flex justify-end items-end gap-3 mt-4">
-                <button className="flex  px-6 py-3 duration-200 hover:scale-105">
+                <button className="flex  px-6 py-3 duration-200 border-[2px] border-transparent hover:scale-105">
                   <a href={hcode} target="_blank" className="flex">
                     Code{" "}
                     <span>

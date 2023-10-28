@@ -19,7 +19,7 @@ const Contact = () => {
       </div>
 
       <div className="flex flex-col xl:flex-row justify-center items-center xl:items-start md:gap-20 md:w-full">
-        <div className="px-5 2xl:px-5 md:px-20">
+        <div className="px-5 2xl:mr-20 md:px-20">
           <h2 className="text-bold text-2xl ">
             Collaborons ensemble et créons votre succès.
           </h2>

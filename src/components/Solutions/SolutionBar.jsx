@@ -5,7 +5,7 @@ import { ServiceSolution } from "../Data/Data";
 const SolutionBar = () => {
   return (
     <>
-      <div className="mx-auto rounded-lg grid grid-cols-2 sm:grid-cols-4 lg:gap-20 bg-second justify-center items-center ">
+      <div className="mx-auto rounded-lg grid grid-cols-2 sm:grid-cols-4 lg:gap-20 bg-second justify-center items-center w-full ">
         {menuItemSolution.map((item, id) => {
           return (
             <div key={id}>
@@ -32,7 +32,7 @@ const SolutionBar = () => {
       </div>
 
       <>
-        <div className="lg:px-36">
+        <div className="xl:px-44">
           <Service Title="" data={ServiceSolution} />
         </div>
       </>
