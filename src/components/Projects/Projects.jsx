@@ -10,7 +10,7 @@ const Projects = () => {
 
           <div className="h-0.5 flex-grow bg-second "></div>
         </div>
-        <p className="text-md md:text-lg">Quelques un de mes projets développement web</p>
+        <p className="text-md md:text-lg">Quelques-uns de mes projets développement web</p>
         <Project />
     </div>
   
