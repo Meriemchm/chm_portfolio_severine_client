@@ -1,10 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { SiTailwindcss } from "react-icons/si";
-import { FaReact, FaFigma } from "react-icons/fa";
-import { BiLogoGit, BiPodcast } from "react-icons/bi";
-import { MdPersonalVideo } from "react-icons/md";
 
 export const techs = [
   {
@@ -80,7 +75,7 @@ export const links = [
         <FaLinkedin size={30} />
       </>
     ),
-    href: "",
+    href: "https://www.linkedin.com/in/severine-allagui-01568a298/",
   },
   {
     id: 2,
