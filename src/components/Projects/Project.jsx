@@ -62,7 +62,7 @@ const Project = () => {
 
               <p className="text-start text-sm ">
                 {isTruncated
-                  ? description.slice(0, description.lastIndexOf(" ", 150))
+                  ? description.slice(0, description.lastIndexOf(" ", 140))
                   : description}
 
                 {description.length > 150 && (
