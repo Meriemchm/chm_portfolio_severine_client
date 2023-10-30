@@ -11,5 +11,6 @@ Currently, two official plugins are available:
 
 Make sure to run the following command after downloading the project:
 
--npm install
+- npm install
+  
 This will install the necessary dependencies to get the project up and running, including Tailwind CSS.
